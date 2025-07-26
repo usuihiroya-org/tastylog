@@ -10,7 +10,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "tastylog-bucket-usuih"
+    bucket  = "tastylog-bucket-1905149"
     key     = "terraform.tfstate"
     region  = "ap-northeast-1"
     profile = "terraform"
