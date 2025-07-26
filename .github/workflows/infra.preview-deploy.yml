@@ -49,7 +49,7 @@ jobs:
               run:
                 terraform validate -no-color
             - name: Terraform plan
-              run:
+              run: |
                 terraform plan \
                   -var 'project=${{ env.TF_PROJECT }}' \
                   -var 'environment=${{ env.TF_ENVIRONMENT }}' \
